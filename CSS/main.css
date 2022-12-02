@@ -1,0 +1,325 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(224,255,255, 0.8);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+}
+
+
+h2, h3, select{
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+p {
+    font-family: Didot, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.logotitle {
+    margin-top: 20px;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+
+.menulist {
+    margin: 5px 0px 5px 0px;
+    padding: 10px;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 3px 0px 5px 0px;
+}
+
+select:hover {
+    background-color: rgb(235, 216, 231);
+}
+
+select {
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.menulist li {
+    margin: 10px 100px 10px;
+    letter-spacing: 5px;
+    justify-content: space-around;
+}
+
+main {
+    background-image: url(../IMG/piscina.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 900px;
+    width: 100%;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    justify-content: space-around;
+}
+
+.premiado {
+    align-items: center;
+    height: 250px;
+    width: 300px;
+    border: rgba(224,255,255) solid;
+    background-color: rgba(224,255,255);
+    text-align: center;
+    box-shadow: 10px 5px 5px black;
+}
+
+.premiado h2::before {
+    content: '';
+    height: 40px;
+    border: 2px solid;
+    margin: 3px;
+    position: relative;
+    margin-right: 10px;
+}
+
+
+.nossohotel {
+    height: 250px;
+    width: 300px;
+    border: rgba(224,255,255) solid;
+    background-color: rgba(224,255,255);
+    text-align: center;
+    box-shadow: 10px 5px 5px black;
+}
+
+.nossohotel h2::before {
+    content: '';
+    height: 40px;
+    border: 2px solid;
+    margin: 3px;
+    position: relative;
+    margin-right: 10px;
+}
+
+
+
+.logotitle span {
+    font-size: 2.5vw;
+}
+
+
+.text {
+    margin-top: 35px;
+    align-items: center;
+    text-align: center;
+    word-spacing: 20px;
+    height: 50px;
+}
+    
+.video {
+    background-image: url("https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-block: unset;
+    height: 900px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.video video {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.video div{
+    color: white;
+    width: 300px;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 900px;
+    letter-spacing: 3px;
+
+}
+
+section video {
+    margin: 100px ;
+    box-shadow: 10px 5px 5px black;
+
+}
+
+.carrossel {
+    display: flex;
+    align-items: baseline;
+    margin: 15px;
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    opacity: 0.8;
+
+}
+
+.carrossel div {
+    width: 19.9%;
+    height: 100%;
+}
+
+.carrossel .fig1 {
+    background-image: url(../IMG/vistamar.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 33%;
+    height: 400px;
+
+
+}
+.carrossel .fig2 {
+    background-image: url(../IMG/table-cup.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 34%;
+    height: 400px;
+}
+
+.carrossel .fig3 {
+    background-image: url(..//IMG/restaurant-449952_1280.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 33%;
+    height: 400px;
+}
+
+.carrossel .fig4 {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/04/16/beach-1867271__340.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 33%;
+    height: 400px;
+    
+}
+
+.carrossel .fig5 {
+    background-image:url(https://cdn.pixabay.com/photo/2015/08/13/17/24/vintage-1950s-887273__340.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 33%;
+    height: 400px;
+}
+
+
+
+
+.viva {
+    background-image: url(https://media.istockphoto.com/id/526790013/pt/foto/rafting-no-rio-so%C4%8Da-eslov%C3%A9nia.jpg?b=1&s=170667a&w=0&k=20&c=vrXZ45SBY5l2chK1rG039MUcw5r26IPlpz4jFCFnNfQ=);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    opacity: 0.8;
+
+}
+
+.esportes {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration-color: black;
+    text-shadow: 2px 3px #1a1717;
+}
+
+
+.viva h2 {
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.viva img{
+    width: 400px;
+    box-shadow: 10px 5px 5px black;
+}
+
+
+
+.listas-foot {
+    display: flex;
+    align-items: auto;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+
+.listas-foot a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none; 
+}
+
+@keyframes animacao {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    35% {margin-left: -100%;}
+    45% {margin-left: -200%;}
+    65% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    85% {margin-left: -300%;}
+    95% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+
+}
