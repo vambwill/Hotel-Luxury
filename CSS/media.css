@@ -1,0 +1,77 @@
+
+
+@media(max-width: 992px) {
+    header {
+        background-color: none;
+        height: 0px;
+        position: absolute;
+    }
+    .menulist {
+        flex-direction: column;
+        padding: 2px;
+        height: 100px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 140px;
+    }
+
+    .container h2 + p {
+        font-size: 0.9rem;
+    }
+
+    .nossohotel {
+    height: 200px;
+    width: 250px;
+    }
+
+    
+    .premiado {
+        height: 220px;
+        width: 250px;
+    }
+
+    .video {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .video video {
+        width: 340px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    
+    footer {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+
+@media(max-width: 1072px) {
+    .video div{
+        display: flex;
+        text-align: center;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width: 792px) {
+    .video div{
+        display: flex;
+        text-align: center;
+        margin-left: 20px;
+    }
+}
+

@@ -257,13 +257,13 @@ section video {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-size: 25px;
     width: 100%;
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     color: white;
-    opacity: 0.8;
 
 }
 
@@ -273,7 +273,7 @@ section video {
     align-items: center;
     flex-direction: column;
     text-decoration-color: black;
-    text-shadow: 2px 3px #1a1717;
+    text-shadow: 2px 4px #1a1717;
 }
 
 
@@ -292,12 +292,15 @@ section video {
 
 
 .listas-foot {
-    display: flex;
-    align-items: auto;
-    justify-content: space-around;
     font-size: 1.2rem;
     background-color: rgb(48, 46, 46);
     color: white;
+}
+
+.listas-foot span{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .listas-foot a {
@@ -310,9 +313,16 @@ li {
     list-style-type: none; 
 }
 
+.desenvolvedor {
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    padding: 6px 0px 10px 0px;
+    background-color: black;
+}
+
 @keyframes animacao {
     0% {margin-left: 0;}
-    20% {margin-left: 0;}
+    15% {margin-left: 0;}
     25% {margin-left: -100%;}
     35% {margin-left: -100%;}
     45% {margin-left: -200%;}
