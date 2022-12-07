@@ -33,6 +33,11 @@
         width: 250px;
     }
 
+    .testoEntreFiguras {
+        height: 80px;
+        font-size: small;
+    }
+
     .video {
         display: flex;
         align-items: center;
@@ -49,9 +54,13 @@
 
     }
 
-    
-    footer {
-        text-align: center;
+    .listas-foot {
+        height: 420px;
+    }
+
+    .listas-foot span, ul {
+        margin-top: 5px;
+        display: flex;
         align-items: center;
         flex-direction: column;
     }
@@ -75,3 +84,9 @@
     }
 }
 
+@media(max-width: 437px) {
+    .logotitle {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+}

@@ -6,6 +6,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
+    margin: 0;
 }
 
 header {
@@ -34,6 +35,7 @@ p {
 .logotitle {
     margin-top: 20px;
     font-family: Montserrat, sans-serif;
+    font-size: 25px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -74,6 +76,19 @@ select {
     justify-content: space-around;
 }
 
+.ligue {
+    width: 150px;
+    height: 60px;
+    padding: 6px;
+    text-align: center;
+    align-items: center;
+    background-color: azure;
+    position: absolute;
+    border-radius: 10px;
+    left: 50px;
+    margin-top: 25px;
+}
+
 main {
     background-image: url(../IMG/piscina.jpg);
     background-size: 100% 100%;
@@ -92,6 +107,7 @@ main {
 }
 
 .premiado {
+    padding: 5px;
     align-items: center;
     height: 250px;
     width: 300px;
@@ -112,6 +128,7 @@ main {
 
 
 .nossohotel {
+    padding: 5px;
     height: 250px;
     width: 300px;
     border: rgba(224,255,255) solid;
@@ -131,17 +148,24 @@ main {
 
 
 
-.logotitle span {
-    font-size: 2.5vw;
+
+.textoEntreFiguras {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 15px 300px 13px 300px;
+
 }
 
 
+
 .text {
-    margin-top: 35px;
     align-items: center;
     text-align: center;
-    word-spacing: 20px;
-    height: 50px;
+    margin: 15px 0px 20px 0px;
+    word-spacing: 6px;
+    height: 30px;
+
 }
     
 .video {
@@ -153,21 +177,31 @@ main {
     height: 900px;
     width: 100%;
     opacity: 0.8;
+    position: relative;
 }
+
 
 .video video {
     width: 400px;
-    margin-bottom: 20px;
 }
 
 .video div{
     color: white;
-    width: 300px;
+    width: 400px;
     flex-direction: column;
     text-align: center;
-    margin-left: 900px;
     letter-spacing: 3px;
 
+}
+
+video {
+    position: relative;
+    left: 70px;
+}
+
+.texto-video {
+    position: absolute;
+    left: 800px;
 }
 
 section video {
@@ -199,7 +233,7 @@ section video {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 33%;
+    width: 33.333%;
     height: 400px;
 
 
@@ -211,7 +245,7 @@ section video {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 34%;
+    width: 33.333%;
     height: 400px;
 }
 
@@ -222,7 +256,7 @@ section video {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 33%;
+    width: 33.333%;
     height: 400px;
 }
 
@@ -264,6 +298,7 @@ section video {
     align-items: center;
     justify-content: space-around;
     color: white;
+    opacity: 0.8;
 
 }
 
@@ -277,11 +312,12 @@ section video {
 }
 
 
-.viva h2 {
-    padding-top: 20px;
+.viva h2, h3{
+    padding-top: 10px;
     text-align: center;
     align-items: center;
     justify-content: center;
+    letter-spacing: 5px;
 }
 
 .viva img{
@@ -292,16 +328,22 @@ section video {
 
 
 .listas-foot {
+    padding: 3px 0px 0px 0px;
+    height: 190px;
     font-size: 1.2rem;
     background-color: rgb(48, 46, 46);
     color: white;
 }
 
 .listas-foot span{
+    margin-top: 20px;
     display: flex;
-    align-items: center;
+    text-align: center;
+    align-items: initial;
     justify-content: space-around;
 }
+
+
 
 .listas-foot a {
     color: white;
